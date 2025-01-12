@@ -1,0 +1,10 @@
+function(abc_f)
+    cmake_parse_arguments(abc "ENABLE" "VALUE" "LIST" ${ARGN})
+    message("abc_ENABLE: ${abc_ENABLE}")
+    message("abc_VALUE: ${abc_VALUE}")
+    message("abc_LIST: ${abc_LIST}")
+endfunction()
+
+abc_f(LIST b c VALUE a ENABLE)
+message("-----------------")
+abc_f(LIST E;F)
