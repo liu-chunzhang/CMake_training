@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyProject"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v all"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mylib">
+				<Option output="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/lib/libmylib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v mylib"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mylib/fast">
+				<Option output="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/lib/libmylib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v mylib/fast"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyProject">
+				<Option output="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/MyProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v MyProject"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyProject/fast">
+				<Option output="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/MyProject" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/src"/>
+					<Add directory="/usr/include/eigen3"/>
+					<Add directory="."/>
+					<Add directory="/usr/include/c++/13"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/13"/>
+					<Add directory="/usr/include/c++/13/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/13/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v MyProject/fast"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v edit_cache"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/ninja -v rebuild_cache"/>
+					<CompileFile command="/usr/bin/ninja -v &quot;$file&quot;"/>
+					<Clean command="/usr/bin/ninja -v clean"/>
+					<DistClean command="/usr/bin/ninja -v clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/main.c">
+			<Option target="MyProject"/>
+		</Unit>
+		<Unit filename="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/src/lib.c">
+			<Option target="mylib"/>
+		</Unit>
+		<Unit filename="/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

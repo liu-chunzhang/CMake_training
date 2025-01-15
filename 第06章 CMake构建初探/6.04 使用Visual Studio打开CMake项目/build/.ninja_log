@@ -1,0 +1,5 @@
+# ninja log v5
+0	17	1736907739973253525	CMakeFiles/mylib.dir/src/lib.c.o	38765f918ba1c8b2
+1	18	1736907739975253371	CMakeFiles/MyProject.dir/main.c.o	bf675cf54a1e1818
+18	52	1736907740010250673	../lib/libmylib.a	ac35a3925e2d7c68
+52	68	1736907740028249288	../MyProject	2c7e035aff665c57

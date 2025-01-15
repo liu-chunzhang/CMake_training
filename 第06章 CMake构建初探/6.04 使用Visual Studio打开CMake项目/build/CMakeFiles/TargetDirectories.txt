@@ -1,0 +1,4 @@
+/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build/CMakeFiles/mylib.dir
+/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build/CMakeFiles/MyProject.dir
+/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build/CMakeFiles/edit_cache.dir
+/home/chunzhang/Desktop/CMake_construction/第06章 CMake构建初探/6.04 使用Visual Studio打开CMake项目/build/CMakeFiles/rebuild_cache.dir
